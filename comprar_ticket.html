@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar_Ticket</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <div style="text-align: left;">
+                <a class="navbar-brand" href="#">Conf Bs As</a>
+            </div>
+            <div style="text-align: right;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Convíertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="comprar_ticket.html" style="color: rgb(9, 143, 4);">Comprar
+                                tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="flex-containers3">
+        <div class="card border-primary">
+            <div id="Estudiante">
+                <p><b>Estudiante</b></p>
+                <p>Tiene un descuento</p>
+                <p><b>80%</b></p>
+                <p style="font-size: small;">*presentar documentación</p>
+            </div>
+        </div>
+        <div class="card border-info">
+            <div id="Trainee">
+                <p><b>Trainee</b></p>
+                <p>Tiene un descuento</p>
+                <p><b>50%</b></p>
+                <p style="font-size: small;">*presentar documentación</p>
+            </div>
+        </div>
+        <div class="card border-warning">
+            <div id="Junior">
+                <p><b>Junior</b></p>
+                <p>Tiene un descuento</p>
+                <p><b>15%</b></p>
+                <p style="font-size: small;">*presentar documentación</p>
+            </div>
+        </div>
+    </div>
+    <div class="container, text-center">
+        <h6>
+            VENTA
+        </h6>
+        <h1>
+            VALOR DEL TICKET $200
+        </h1>
+    </div>
+    <div class="flex_container2">
+        <form action="#" method="post">
+            <div class="row">
+                <div class="col">
+                    <input size="42" type="text" class="formulario_t" name="firstname" id="firstname"
+                        placeholder="Nombre" required>
+                </div>
+                <div class="col">
+                    <input size="42" type="text" class="formulario_t" name="lastname" id="lastname"
+                        placeholder="Apellido" required>
+                </div>
+            </div>
+            <br>
+            <div class="col">
+                <input size="95" type="Mail" class="formulario_t" name="Mail" id="mail" placeholder="Mail"
+                    required><br><br>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="number">Cantidad</label><br>
+                    <input type="number" class="form-control" style="size: 42vh;" name="Cantidad" id="Cantidad"
+                        placeholder="Cantidad" required>
+                </div>
+                <div class="col">
+                    <label for="categoria">Categoria</label><br>
+                    <select class="form-select" id="Categoria">
+                        <option value="0"></option>
+                        <option value="80">Estudiante</option>
+                        <option value="50">Trainee</option>
+                        <option value="15">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <input size="95" type="text" class="total" name="Monto" id="Monto" value="Total a pagar: $" readonly>
+            <br>
+            <br>
+            <button type="reset" class="boton_2">Borrar</button>
+            <button type="button" class="boton_2" onclick="calculo()">Resumen</button>
+        </form>
+    </div>
+    <br>
+    <footer>
+        <div class="flex_container">
+            <div> <a href="#" ; class="menu_pie"> Preguntas frecuentes</a></div>
+            <div> <a href="#" ; class="menu_pie">Contéctenos</a></div>
+            <div> <a href="#" ; class="menu_pie">Prensa</a></div>
+            <div> <a href="#" ; class="menu_pie">Conferencias</a></div>
+            <div> <a href="#" ; class="menu_pie">Términos y condiciones</a></div>
+            <div> <a href="#" ; class="menu_pie">Privcidad</a></div>
+            <div> <a href="#" ; class="menu_pie">Estudiantes</a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

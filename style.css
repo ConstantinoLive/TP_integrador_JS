@@ -1,0 +1,141 @@
+.boton{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(97, 170, 23);
+    padding: 0.5vw 15vw;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid rgb(97, 170, 23);
+    box-sizing: border-box;
+}
+
+.boton_2{
+    font-size: 17px;
+    color: white;
+    background-color: rgb(97, 170, 23);
+    padding: 0.5vw 10vw;
+    border-radius: 4px;
+    border: 1px solid rgb(97, 170, 23);
+    box-sizing: border-box;
+    /* width: 50%;*/
+}
+
+.formulario{
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 3px 2px;
+}
+
+.cuadro_texto{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:23px;
+}
+
+.col2{
+    font-size: small;
+    line-height: 1.7vw;
+}
+
+.texto_carrusel{
+    font-size: 18px; ;
+    text-align: right;
+    margin-left: 55vh;
+    margin-bottom: 25vh;
+}
+
+.flex_container{
+    display: flex;
+    background-color: rgb(7, 54, 75);
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.flex_container > div{
+    text-align:center;
+    line-height: 3vh;
+    margin: 3vh;
+    padding: 1vh;
+    width: 15vh;
+    font-size:small;
+}
+
+.menu_pie{
+    color: white;   
+    text-decoration: none;
+}
+
+.oscurecer_img{
+    filter: brightness(50%);
+}
+
+.flex_container2{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.tex_form1{
+    text-align:center;
+}
+
+.tex_form2{
+    font-size: small;
+    color: gray;
+}
+
+.flex-containers3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-containers3 > div{
+    width: 270px;
+    height: 230px;
+    margin: 5px;
+    padding: 3vh;
+    text-align:center;
+    font-size: 25px;
+}
+
+.formulario_t{
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 6px 5px;
+}
+
+/*.lista{
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    top: 14px;
+}
+
+.select:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}*/
+
+.total{
+    background-color: rgb(106, 185, 238);
+    color: blue;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid  rgb(106, 185, 238);
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
